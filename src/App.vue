@@ -36,7 +36,8 @@
     <h1 v-if="beforeFirstFruits">It's not too late! Pray to Jesus now!</h1>
     <h1 v-if="greatTribulation">Please do not be deceived by the lawless one and
       do not take his mark upon you. Pray to Jesus now!</h1>
-    <h1 v-if="wrathOfGod">Be prepared for the coming of the King for His millennium reign.</h1>
+    <h1 v-if="wrathOfGod">Be prepared for the coming of the King of kings and Lord of lords for His millennium reign!</h1>
+    <h1 v-if="millenniumReign">Hallelujah! Jesus Christ reigns forever more!</h1>
 
     <p>&nbsp;</p>
     <p><sup>10</sup>that at the name of Jesus every knee should bow, of those in
@@ -65,6 +66,7 @@ const updateCurrentTime = () => currentTime.value = new Date()
 const beforeFirstFruits = computed(() => currentTime.value < firstFruitsRapture)
 const greatTribulation = computed(() => currentTime.value >= firstFruitsRapture && currentTime.value < mainHarvestRapture)
 const wrathOfGod = computed(() => currentTime.value >= mainHarvestRapture && currentTime.value < secondComing)
+const millenniumReign = computed(() => currentTime.value >= secondComing)
 
 const timeDiffToNow = (until) => {
   const delta = Math.round(Math.abs(until - currentTime.value) / 1000)
