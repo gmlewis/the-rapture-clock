@@ -57,8 +57,10 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
-const firstFruitsRapture = new Date('May 28, 2023 15:00:00+3')  // "9th hour" = 3pm
-const mainHarvestRapture = new Date('October 14, 2023 15:00:00+3')
+// daylight savings time is a man-made thing, so adjust for it here with the +2.
+const firstFruitsRapture = new Date('May 28, 2023 15:00:00+2')  // "9th hour" = 3pm
+const mainHarvestRapture = new Date('October 14, 2023 15:00:00+2')
+// daylight savings ends this year on Sun, Nov 5, 2023 2:00 AM, EST.
 const secondComing = new Date('December 22, 2023 15:00:00+3')
 
 const currentTime = ref(new Date())
