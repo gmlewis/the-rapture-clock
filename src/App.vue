@@ -20,15 +20,15 @@
     <p>&nbsp;</p>
     <p>It is now {{ currentTime.toLocaleTimeString() }} on {{ currentTime.toLocaleDateString() }} (local time).</p>
     <p>&nbsp;</p>
-    <p>The first fruits rapture is at: {{ firstFruitsRapture.toLocaleTimeString() }} on {{
+    <p>The first fruits rapture might be at: {{ firstFruitsRapture.toLocaleTimeString() }} on {{
       firstFruitsRapture.toLocaleDateString() }} (local time)
       which {{ timeDiffToNow(firstFruitsRapture) }}</p>
     <p>&nbsp;</p>
-    <p>The main harvest rapture is at: {{ mainHarvestRapture.toLocaleTimeString() }} on {{
+    <p>The main harvest rapture might be at: {{ mainHarvestRapture.toLocaleTimeString() }} on {{
       mainHarvestRapture.toLocaleDateString() }} (local time)
       which {{ timeDiffToNow(mainHarvestRapture) }}</p>
     <p>&nbsp;</p>
-    <p>The second coming of Jesus is at: {{ secondComing.toLocaleTimeString() }} on {{
+    <p>The second coming of Jesus might be at: {{ secondComing.toLocaleTimeString() }} on {{
       secondComing.toLocaleDateString() }} (local time).
       which {{ timeDiffToNow(secondComing) }}</p>
 
@@ -57,9 +57,10 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
+// From Mandi at https://www.youtube.com/@SeekHeavenlyThings :
+const firstFruitsRapture = new Date('June 3, 2023 18:53:00-4')
 // daylight savings time is a man-made thing, so adjust for it here with the +2.
-const firstFruitsRapture = new Date('May 28, 2023 15:00:00+2')  // "9th hour" = 3pm
-const mainHarvestRapture = new Date('October 14, 2023 15:00:00+2')
+const mainHarvestRapture = new Date('October 14, 2023 15:00:00+2')  // "9th hour" = 3pm
 // daylight savings ends this year on Sun, Nov 5, 2023 2:00 AM, EST.
 const secondComing = new Date('December 22, 2023 15:00:00+3')
 
