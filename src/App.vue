@@ -58,7 +58,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
 // From Mandi at https://www.youtube.com/@SeekHeavenlyThings :
-const firstFruitsRapture = new Date('June 7, 2023 18:53:00-4')
+const firstFruitsRapture = new Date('June 9, 2023 18:53:00-4')
 // daylight savings time is a man-made thing, so adjust for it here with the +2.
 const mainHarvestRapture = new Date('October 14, 2023 15:00:00+2')  // "9th hour" = 3pm
 // daylight savings ends this year on Sun, Nov 5, 2023 2:00 AM, EST.
