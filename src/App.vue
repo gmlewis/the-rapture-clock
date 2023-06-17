@@ -3,9 +3,6 @@
     <h1>Jesus (Yeshua משיח — Messiah) Saves!</h1>
     <p>Have you given your life to Jesus?</p>
     <p>&nbsp;</p>
-    <a href="https://stellarium-web.org/">
-      <img src="/2023-06-17-1722-EDT.png" alt="The Bride escapes from the beast" width="1706" height="833">
-    </a>
     <p>&nbsp;</p>
     <p>Jesus Christ loves you so much that He died for you (and for me)
       on the cross for our sins and rose again on the third day and
