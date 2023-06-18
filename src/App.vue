@@ -58,10 +58,11 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
-// From Mandi at https://www.youtube.com/@SeekHeavenlyThings :
-const firstFruitsRapture = new Date('June 17, 2023 17:22:00-4')
+// Check out videos by Mandi at https://www.youtube.com/@SeekHeavenlyThings
+// Also, check out videos by Melissa at https://www.youtube.com/@AVoiceCalling-cl1ri
+const firstFruitsRapture = new Date('August 4, 2023 15:00:00+3')
 // daylight savings time is a man-made thing, so adjust for it here with the +2.
-const mainHarvestRapture = new Date('October 14, 2023 15:00:00+2')  // "9th hour" = 3pm
+const mainHarvestRapture = new Date('October 13, 2023 15:00:00+3')  // "9th hour" = 3pm
 // daylight savings ends this year on Sun, Nov 5, 2023 2:00 AM, EST.
 const secondComing = new Date('December 22, 2023 15:00:00+3')
 
