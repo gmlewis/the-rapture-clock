@@ -51,7 +51,8 @@
     </p>
 
     <p>&nbsp;</p>
-    <p>For more information, please visit: <a href="https://rapturepuzzle.com">rapturepuzzle.com</a></p>
+    <p>For more information, please visit: <a href="https://rapturepuzzle.com">rapturepuzzle.com</a>
+      by Renee Moses and her YouTube channel: <a href="https://www.youtube.com/@reneemoses">The Rapture Puzzle</a>.</p>
   </div>
 </template>
 
