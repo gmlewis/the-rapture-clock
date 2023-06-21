@@ -3,6 +3,9 @@
     <h1>Jesus (Yeshua משיח — Messiah) Saves!</h1>
     <p>Have you given your life to Jesus?</p>
     <p>&nbsp;</p>
+    <a href="https://stellarium-web.org/">
+      <img src="/the-ninth-hour-2023-06-21_522pmEDT.png" alt="The Rapture of the Bride" width="1706" height="833">
+    </a>
     <p>&nbsp;</p>
     <p>Jesus Christ loves you so much that He died for you (and for me)
       on the cross for our sins and rose again on the third day and
@@ -61,7 +64,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
 // Check out videos by Mandi at https://www.youtube.com/@SeekHeavenlyThings
 // Also, check out videos by Melissa at https://www.youtube.com/@AVoiceCalling-cl1ri
-const firstFruitsRapture = new Date('August 4, 2023 15:00:00+3')
+const firstFruitsRapture = new Date('June 21, 2023 17:22:00-4')
 // daylight savings time is a man-made thing, so adjust for it here with the +2.
 const mainHarvestRapture = new Date('October 13, 2023 15:00:00+3')  // "9th hour" = 3pm
 // daylight savings ends this year on Sun, Nov 5, 2023 2:00 AM, EST.
